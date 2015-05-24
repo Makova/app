@@ -1,0 +1,3 @@
+[submodule "www"]
+	path = www
+	url = git@github.com:elecciones-ugr/elecciones-ugr.github.io.git
