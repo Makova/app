@@ -6,7 +6,7 @@ App para seguir las elecciones 2015 a rector/a de la Universidad de Granada
 
 ## ¿Cómo compilar la aplicación?
 
-Necesitarás "Apache Córdova". Por ejemplo, en Ubuntu tendrás que ejecutar:
+Necesitarás "Apache Cordova". Por ejemplo, en Ubuntu tendrás que ejecutar:
 
 ```bash
 sudo apt-get update
