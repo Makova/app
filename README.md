@@ -10,7 +10,7 @@ Necesitarás "Apache Córdova". Por ejemplo, en Ubuntu tendrás que ejecutar:
 
 ```bash
 sudo apt-get update
-sudo apt-get install nodejs npm
+sudo apt-get install nodejs nodejs-legacy npm
 sudo npm install -g cordova
 ```
 
