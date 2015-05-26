@@ -40,7 +40,7 @@ if (rootdir) {
             // that token
             replace_string_in_file(fullfilename, 
                 "resultados.jsonp", 
-                "https://raw.githubusercontent.com/elecciones-ugr/elecciones-ugr.github.io/master/resultados.jsonp";
+                "https://raw.githubusercontent.com/elecciones-ugr/elecciones-ugr.github.io/master/resultados.jsonp" );
             // ... any other configuration options
         } else {
             //console.log("missing: "+fullfilename);
