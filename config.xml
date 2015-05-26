@@ -5,7 +5,7 @@
         Aplicación para seguir las elecciones de la UGR
     </description>
     <author email="OSL" href="http://osl.ugr.es/">
-        Oficina de Software Libre de Granada
+        Israel + Oficina de Software Libre de la Universidad de Granada
     </author>
     <content src="index.html" />
     <access origin="*" />
