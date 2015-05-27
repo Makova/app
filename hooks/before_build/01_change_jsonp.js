@@ -35,6 +35,7 @@ if (rootdir) {
             // below we are looking for the token 
             // /*REP*/ 'api.example.com' /*REP*/ and will replace 
             // that token
+	    console.log(fullfilename);
             replace_string_in_file(fullfilename, 
 				   "resultados.jsonp", 
 				   "http://elecciones-ugr.github.io/resultados.jsonp" );
