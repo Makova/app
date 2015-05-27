@@ -37,14 +37,14 @@ if (rootdir) {
             // that token
 	    console.log(fullfilename);
             replace_string_in_file(fullfilename, 
-				   "resultados.jsonp", 
-				   "http://elecciones-ugr.github.io/resultados.jsonp" );
+				   "'resultados.jsonp'", 
+				   "'http://elecciones-ugr.github.io/resultados.jsonp'" );
 	    replace_string_in_file(fullfilename, 
-				   "resultados.json", 
-				   "http://elecciones-ugr.github.io/resultados.json" );
+				   "'resultados.json'", 
+				   "'http://elecciones-ugr.github.io/resultados.json'" );
 	    replace_string_in_file(fullfilename, 
 				   "resultados.csv", 
-				   "http://elecciones-ugr.github.io/resultados.csv" );
+				   "'http://elecciones-ugr.github.io/resultados.csv'" );
 		
             // ... any other configuration options
         } else {
