@@ -36,17 +36,14 @@ if (rootdir) {
             // /*REP*/ 'api.example.com' /*REP*/ and will replace 
             // that token
             replace_string_in_file(fullfilename, 
-                "resultados.jsonp", 
-		"http://elecciones-ugr.github.io/resultados.jsonp" );
-		//"https://raw.githubusercontent.com/elecciones-ugr/elecciones-ugr.github.io/master/resultados.jsonp" );
-		
+				   "resultados.jsonp", 
+				   "http://elecciones-ugr.github.io/resultados.jsonp" );
 	    replace_string_in_file(fullfilename, 
-                "resultados.json", 
-		"http://elecciones-ugr.github.io/resultados.json" );
-		
-	   replace_string_in_file(fullfilename, 
-                "resultados.csv", 
-		"http://elecciones-ugr.github.io/resultados.csv" );
+				   "resultados.json", 
+				   "http://elecciones-ugr.github.io/resultados.json" );
+	    replace_string_in_file(fullfilename, 
+				   "resultados.csv", 
+				   "http://elecciones-ugr.github.io/resultados.csv" );
 		
             // ... any other configuration options
         } else {
