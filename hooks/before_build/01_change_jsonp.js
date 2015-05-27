@@ -20,9 +20,6 @@ if (process.env.TARGET) {
 }
  
 if (rootdir) {
-    var ourconfigfile = path.join(rootdir, "config", "project.json");
-    var configobj = JSON.parse(fs.readFileSync(ourconfigfile, 'utf8'));
- 
     // CONFIGURE HERE
     // with the names of the files that contain tokens you want 
     // replaced.  Replace files that have been copied via the prepare step.
