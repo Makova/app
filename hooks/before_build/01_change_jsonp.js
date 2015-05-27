@@ -37,10 +37,17 @@ if (rootdir) {
             // that token
             replace_string_in_file(fullfilename, 
                 "resultados.jsonp", 
-            //"https://raw.githubusercontent.com/elecciones-ugr/elecciones-ugr.github.io/master/resultados.jsonp" );
-		"http://elecciones-ugr.github.io/resultados.csv" );
-		"http://elecciones-ugr.github.io/resultados.json" );
 		"http://elecciones-ugr.github.io/resultados.jsonp" );
+		//"https://raw.githubusercontent.com/elecciones-ugr/elecciones-ugr.github.io/master/resultados.jsonp" );
+		
+	    replace_string_in_file(fullfilename, 
+                "resultados.json", 
+		"http://elecciones-ugr.github.io/resultados.json" );
+		
+	   replace_string_in_file(fullfilename, 
+                "resultados.csv", 
+		"http://elecciones-ugr.github.io/resultados.csv" );
+		
             // ... any other configuration options
         } else {
             //console.log("missing: "+fullfilename);
